@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    /* Change border color to a lighter shade */
+    padding: 12px;
+    /* Increase padding for better spacing */
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    /* Light gray background for headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+    /* Alternate row background color */
+}
+
+/* Hover effect on rows */
+tr:hover {
+    background-color: #f5f5f5;
+    /* Lighter background on hover */
+}
